@@ -1,7 +1,8 @@
 // AiOutlineSearch
-
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
+
     return (
         <>
             <header>
@@ -12,17 +13,37 @@ const Navbar = () => {
                     </label>
                     <label className="logo logoSearch">E-Tech</label>
                     <ul>
-                        <li><a className="active" href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Special Offers</a></li>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a><NavLink
+                            to="/"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "navLinkActive" : ""
+                            }
+                        >
+                            Home
+                        </NavLink></a></li>
+                        <li><a><NavLink
+                            to="/about"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "navLinkActive" : ""
+                            }
+                        >
+                            About
+                        </NavLink></a></li>
+                        <li><a><NavLink
+                            to="/messages"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "navLinkActive" : ""
+                            }
+                        >
+                            Products
+                        </NavLink></a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Special Offers</a></li>
+                        <li><a>Career</a></li>
+                        <li><a>FAQ</a></li>
+                        <li><a>Contact</a></li>
                     </ul>
                 </nav>
-                <section></section>
             </header>
 
         </>
