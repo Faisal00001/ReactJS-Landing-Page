@@ -1,0 +1,32 @@
+[
+    {
+        "image": "https://i.ibb.co/JFKRf19/Wallet.jpg",
+        "title": "Premium Leather Wallet",
+        "description": "Handcrafted, genuine leather wallet with multiple card slots and a sleek design."
+    },
+    {
+        "image": "https://i.ibb.co/zZnSC9p/Smartphone.jpg",
+        "title": "Smartphone Stand and Charger",
+        "description": "Stylish and functional stand with wireless charging capabilities for your mobile devices."
+    },
+    {
+        "image": "https://i.ibb.co/VQFYvyg/Sneakers.jpg",
+        "title": "Women's Fashion Sneakers",
+        "description": "Trendy and comfortable sneakers for women, available in various colors and sizes."
+    },
+    {
+        "image": "https://i.ibb.co/JqrPJNY/Coffee-Maker.jpg",
+        "title": "Stainless Steel Coffee Maker",
+        "description": "High-quality coffee maker with a durable stainless steel body and advanced brewing features."
+    },
+    {
+        "image": "https://i.ibb.co/JH6ZswN/LED-TV.jpg",
+        "title": "HD Smart LED TV",
+        "description": "Large screen smart TV with high-definition display, smart features, and excellent sound quality."
+    },
+    {
+        "image": "https://i.ibb.co/ZH5DZQK/Watch.jpg",
+        "title": "Men's Classic Watch",
+        "description": "Elegant and timeless wristwatch for men with a leather strap and precise quartz movement."
+    }
+]
