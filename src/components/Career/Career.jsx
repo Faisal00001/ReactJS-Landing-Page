@@ -24,8 +24,8 @@ const Career = () => {
                     {
                         jobs.map((job) => <div key={job.id} className="bg-white p-6 rounded-lg shadow-md mb-4">
                             <h3 className="text-xl font-semibold text-blue-900">{job.jobTitle}</h3>
-                            <p className="text-gray-600">We are looking for a talented front-end developer to join our team.</p>
-                            <p className="text-gray-600">Location: Anytown, USA</p>
+                            <p className="text-gray-600">{job.shortDescription}</p>
+                            <p className="text-gray-600">Location: {job.location}</p>
                             <button className="bg-blue-500 mt-5 text-white font-semibold py-2 px-4 rounded-full hover:bg-blue-700">View Details</button>
                         </div>)
                     }

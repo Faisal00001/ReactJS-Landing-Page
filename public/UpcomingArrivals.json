@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "productName": "Gaming Laptop",
+        "image": "https://i.ibb.co/qJ9RG72/gamelap.jpg",
+        "shortDescription": "Take your gaming to the next level with our upcoming laptop.",
+        "longDescription": "Our gaming laptop is designed for high-performance gaming. With a powerful GPU, stunning visuals, and responsive controls, you'll dominate your favorite games.",
+        "estimatedPrice": "$140.99"
+    },
+    {
+        "id": 2,
+        "productName": "Wireless Earbuds Pro",
+        "image": "https://i.ibb.co/ypBT5B0/google-Ear.jpg",
+        "shortDescription": "Immerse yourself in music with our upcoming earbuds.",
+        "longDescription": "Our Wireless Earbuds Pro deliver exceptional sound quality, noise cancellation, and long battery life. Get ready for a superior audio experience on the go.",
+        "estimatedPrice": "$149.99"
+    },
+    {
+        "id": 3,
+        "productName": "Smart Home Security System",
+        "image": "https://i.ibb.co/HgHWhHf/home-security.jpg",
+        "shortDescription": "Protect your home with our advanced security system.",
+        "longDescription": "Enhance the safety of your home with our Smart Home Security System. Monitor your property, receive alerts, and keep your loved ones safe with cutting-edge technology.",
+        "estimatedPrice": "$299.99"
+    },
+    {
+        "id": 4,
+        "productName": "Designer Handbag Collection",
+        "image": "https://i.ibb.co/BshPn1z/handBag.jpg",
+        "shortDescription": "Elevate your style with our upcoming handbag collection.",
+        "longDescription": "Our Designer Handbag Collection offers a range of chic and elegant designs. From classic to modern, these handbags are the perfect fashion statement for any occasion.",
+        "estimatedPrice": "$249.99"
+    },
+    {
+        "id": 5,
+        "productName": "Fitness Tracker Watch",
+        "image": "https://i.ibb.co/72vd4qT/tracker-watch.jpg",
+        "shortDescription": "Stay active and track your progress with our fitness watch.",
+        "longDescription": "Our Fitness Tracker Watch is designed to help you achieve your fitness goals. Monitor your steps, heart rate, and more while staying connected on the go.",
+        "estimatedPrice": "$79.99"
+    },
+    {
+        "id": 6,
+        "productName": "Portable Blender",
+        "image": "https://i.ibb.co/7SgZd8h/blender.jpg",
+        "shortDescription": "Blend your favorite smoothies anywhere with our portable blender.",
+        "longDescription": "Make healthy, delicious smoothies and shakes on the go with our Portable Blender. It's compact, easy to use, and perfect for a busy, active lifestyle.",
+        "estimatedPrice": "$49.99"
+    }
+]

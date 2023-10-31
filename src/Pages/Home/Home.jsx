@@ -5,6 +5,7 @@ import CustomerReviews from "../../components/CustomerReviews/CustomerReviews";
 import Faq from "../../components/FAQ/FAQ";
 import Products from "../../components/Products/Products";
 import Slider from "../../components/Slider/Slider";
+import UpcomingArrivals from "../../components/UpcomingArrivals/UpcomingArrivals";
 import "./Home.css";
 
 const Home = () => {
@@ -13,8 +14,9 @@ const Home = () => {
             <Slider></Slider>
             <div className="products-container">
 
-                <h3 className="products-title">Our Products</h3>
+                <h3 className="products-title text-3xl font-bold">Our Products</h3>
                 <Products></Products>
+                <UpcomingArrivals></UpcomingArrivals>
                 <CustomerReviews></CustomerReviews>
                 <Career></Career>
                 <Faq></Faq>
