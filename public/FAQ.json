@@ -1,0 +1,22 @@
+[
+    {
+        "question": "1. How can I track my order?",
+        "answer": "You can easily track your order by logging into your account on our website. There, you'll find real-time updates on your order's status and shipping details."
+    },
+    {
+        "question": "2. What is your return policy?",
+        "answer": "Our return policy allows you to return items within 30 days of purchase for a full refund. Please ensure the product is in its original condition with all tags and packaging."
+    },
+    {
+        "question": "3. How do I change my shipping address after placing an order?",
+        "answer": "To change your shipping address, contact our customer support as soon as possible. We'll do our best to update your information before the order is shipped."
+    },
+    {
+        "question": "4. Are my payment details secure on your website?",
+        "answer": "Absolutely! We use state-of-the-art encryption technology to protect your payment information. Your data is safe and secure, and we do not store any payment details."
+    },
+    {
+        "question": "5. What payment methods do you accept?",
+        "answer": "We accept a variety of payment methods, including credit/debit cards, PayPal, and other secure online payment options. You can choose the one that suits you best during the checkout process."
+    }
+]

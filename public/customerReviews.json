@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Alice Johnson",
+        "review": "I had an amazing shopping experience on this e-commerce site. The products are high-quality, and the prices are unbeatable. I highly recommend it.",
+        "image": "https://i.ibb.co/7brNf67/people1.jpg"
+    },
+    {
+        "name": "John Smith",
+        "review": "This e-commerce site is a game-changer. The customer service is exceptional, and I found everything I needed at fantastic prices. Great job.",
+        "image": "https://i.ibb.co/bXfY6Z1/people3.jpg"
+    },
+    {
+        "name": "Emily Davis",
+        "review": "I'm a loyal customer of this e-commerce site. The website is user-friendly, and the variety of products is outstanding. Their fast delivery is a big plus.",
+        "image": "https://i.ibb.co/GRgTXCx/people5.jpg"
+    },
+    {
+        "name": "Daniel Lee",
+        "review": "I can't say enough good things about this e-commerce site. It's my go-to place for shopping online. The navigation is easy, and the deals are incredible. Keep up the good work!",
+        "image": "https://i.ibb.co/bQDkMvR/people4.jpg"
+    },
+    {
+        "name": "Sophia Miller",
+        "review": "I'm consistently impressed by the quality of products on this e-commerce site. It's a one-stop shop for me, and I love their timely deliveries.",
+        "image": "https://i.ibb.co/cTkNcY7/people6.jpg"
+    },
+    {
+        "name": "Kathryn Wilson",
+        "review": "This e-commerce site has the best deals. I've saved a lot, and the customer service team is always ready to assist. It's my favorite online store.",
+        "image": "https://i.ibb.co/88d2GgF/people2.jpg"
+    },
+    {
+        "name": "Olivia Brown",
+        "review": "I trust this e-commerce site for all my shopping needs. The reviews are accurate, and the ordering process is smooth. I've never been disappointed with my purchases.",
+        "image": "https://i.ibb.co/hD5PqN9/people7.jpg"
+    }
+]

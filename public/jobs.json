@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "jobTitle": "Software Engineer",
+        "location": "San Francisco, CA",
+        "shortDescription": "Join our team and work on cutting-edge software projects.",
+        "longDescription": "We are seeking a talented software engineer to develop, test, and maintain software applications. You'll collaborate with a dynamic team, solve complex problems, and contribute to innovative projects. If you're passionate about technology and want to make an impact, this is the perfect opportunity for you."
+    },
+    {
+        "id": 2,
+        "jobTitle": "Marketing Manager",
+        "location": "New York, NY",
+        "shortDescription": "Lead our marketing efforts and drive brand growth.",
+        "longDescription": "As a Marketing Manager, you'll create and execute marketing strategies to increase brand awareness and drive business growth. You'll manage a team, analyze market trends, and develop creative campaigns. If you're a results-driven marketer with a proven track record, we want you on our team."
+    },
+    {
+        "id": 3,
+        "jobTitle": "Customer Support Specialist",
+        "location": "Los Angeles, CA",
+        "shortDescription": "Provide exceptional customer service and support.",
+        "longDescription": "Join our customer support team to assist our valued customers. You'll handle inquiries, resolve issues, and ensure customer satisfaction. If you have excellent communication skills, a customer-centric attitude, and want to be part of a supportive team, this role is perfect for you."
+    },
+    {
+        "id": 4,
+        "jobTitle": "Graphic Designer",
+        "location": "Chicago, IL",
+        "shortDescription": "Create stunning visual content for our brand.",
+        "longDescription": "We're looking for a creative Graphic Designer to design eye-catching visuals for our brand. You'll work on a wide range of projects, from web graphics to print materials. If you have a passion for design, attention to detail, and can bring our brand to life through visual storytelling, this role is for you."
+    },
+    {
+        "id": 5,
+        "jobTitle": "Financial Analyst",
+        "location": "Houston, TX",
+        "shortDescription": "Analyze financial data and support decision-making.",
+        "longDescription": "Join our finance team as a Financial Analyst to analyze financial data, prepare reports, and assist in strategic decision-making. Your insights will be vital in optimizing our financial performance. If you have a strong analytical mindset and a background in finance, we invite you to be a key player in our company's success."
+    }
+]

@@ -1,5 +1,10 @@
+import AboutUs from "../../components/AboutUs/AboutUs";
+import Career from "../../components/Career/Career";
+import ContactUs from "../../components/ContactUs/ContactUs";
+import CustomerReviews from "../../components/CustomerReviews/CustomerReviews";
+import Faq from "../../components/FAQ/FAQ";
 import Products from "../../components/Products/Products";
-import Slider from "../../components/Products/Slider/Slider";
+import Slider from "../../components/Slider/Slider";
 import "./Home.css";
 
 const Home = () => {
@@ -10,6 +15,11 @@ const Home = () => {
 
                 <h3 className="products-title">Our Products</h3>
                 <Products></Products>
+                <CustomerReviews></CustomerReviews>
+                <Career></Career>
+                <Faq></Faq>
+                <AboutUs></AboutUs>
+                <ContactUs></ContactUs>
             </div>
         </>
 

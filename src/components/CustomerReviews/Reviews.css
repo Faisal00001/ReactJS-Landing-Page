@@ -1,0 +1,52 @@
+.profile {
+    width: 30%;
+    display: block;
+    margin: auto;
+
+}
+
+.profile-text-container {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Default styles for all devices */
+.reviews-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.testimonialsHeader {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .profile-text-container {
+
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Styles for small devices (mobile) */
+@media (max-width: 767px) {
+    .profile-text-container {
+
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .profile {
+        width: 40%;
+
+
+    }
+
+}

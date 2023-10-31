@@ -1,32 +1,62 @@
 [
     {
         "image": "https://i.ibb.co/JFKRf19/Wallet.jpg",
-        "title": "Premium Leather Wallet",
-        "description": "Handcrafted, genuine leather wallet with multiple card slots and a sleek design."
+        "title": "Leather Wallet",
+        "price": 100,
+        "description": "A slim, stylish essential. Crafted from premium leather with RFID protection. Eight card slots, coin pocket, and two bill compartments. Timeless design and quality craftsmanship."
     },
     {
         "image": "https://i.ibb.co/zZnSC9p/Smartphone.jpg",
-        "title": "Smartphone Stand and Charger",
-        "description": "Stylish and functional stand with wireless charging capabilities for your mobile devices."
+        "title": "Smartphone",
+        "price": 300,
+        "description": "Cutting-edge technology in your pocket! Our smartphone boasts a brilliant display, powerful processor, high-res camera, and seamless connectivity. Experience the future with style and innovation. Get yours today!"
     },
     {
         "image": "https://i.ibb.co/VQFYvyg/Sneakers.jpg",
-        "title": "Women's Fashion Sneakers",
-        "description": "Trendy and comfortable sneakers for women, available in various colors and sizes."
+        "title": "Fashion Sneakers",
+        "price": 500,
+        "description": "Elevate your style with our Fashion Sneakers. Crafted for comfort and trendsetting looks. Versatile for any outfit. Quality materials and a modern design. Step into fashion today!"
     },
     {
         "image": "https://i.ibb.co/JqrPJNY/Coffee-Maker.jpg",
-        "title": "Stainless Steel Coffee Maker",
-        "description": "High-quality coffee maker with a durable stainless steel body and advanced brewing features."
+        "title": "Coffee Maker",
+        "price": 1200,
+        "description": "Experience the perfect brew with our Coffee Maker. Sleek, efficient, and easy to use. Aroma-rich coffee at your fingertips. Elevate your mornings with the ultimate coffee-making companion."
     },
     {
         "image": "https://i.ibb.co/JH6ZswN/LED-TV.jpg",
         "title": "HD Smart LED TV",
-        "description": "Large screen smart TV with high-definition display, smart features, and excellent sound quality."
+        "price": 500,
+        "description": "Transform your entertainment with our HD Smart LED TV. Stunning visuals, vibrant colors, and smart features. Enjoy streaming, gaming, and more on a sleek, immersive screen. Elevate your viewing experience."
     },
     {
         "image": "https://i.ibb.co/ZH5DZQK/Watch.jpg",
         "title": "Men's Classic Watch",
-        "description": "Elegant and timeless wristwatch for men with a leather strap and precise quartz movement."
+        "price": 200,
+        "description": "Introducing our Men's Classic Watch. Timeless elegance meets precision engineering. Quality craftsmanship, a timeless design, and reliable movement. Elevate your style with this sophisticated timepiece"
+    },
+    {
+        "image": "https://i.ibb.co/1bt0MSj/Earbuds.jpg",
+        "title": "Wireless Bluetooth Earbuds",
+        "price": 300,
+        "description": "Embrace freedom with Wireless Bluetooth Earbuds. Seamless connectivity, crisp sound, and long-lasting battery. Enjoy music and calls wirelessly with ergonomic, stylish earbuds. Elevate your audio experience today!"
+    },
+    {
+        "image": "https://i.ibb.co/3Wdn2Hw/Digital-Camera.jpg",
+        "title": "Digital Camera Kit",
+        "price": 600,
+        "description": "Complete camera kit with a DSLR camera, lenses, tripod, and accessories for photography enthusiasts."
+    },
+    {
+        "image": "https://i.ibb.co/SwvQmY5/Camping-Tent.jpg",
+        "title": "Outdoor Camping Tent",
+        "price": 800,
+        "description": "Capture life's moments in stunning detail with our Digital Camera Kit. High-resolution images, versatile lenses, and user-friendly controls. Elevate your photography with this comprehensive kit for aspiring photographers."
+    },
+    {
+        "image": "https://i.ibb.co/SsK9gL7/Perfume.jpg",
+        "title": "Luxury Perfume",
+        "price": 120,
+        "description": "Indulge in the essence of luxury with our exquisite Luxury Perfume. Crafted with rare ingredients, it's a harmonious blend of elegance and allure, leaving a lasting, unforgettable impression."
     }
 ]

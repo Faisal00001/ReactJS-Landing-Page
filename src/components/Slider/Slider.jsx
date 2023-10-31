@@ -2,9 +2,9 @@ import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import 'react-awesome-slider/dist/styles.css';
-import jins from '../../../assets/images/slider/jins.jpg';
-import laptop from '../../../assets/images/slider/laptop.jpg';
-import shoe from '../../../assets/images/slider/shoes.jpg';
+import jins from '../../assets/images/slider/jins.jpg';
+import laptop from '../../assets/images/slider/laptop.jpg';
+import shoe from '../../assets/images/slider/shoes.jpg';
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 const Slider = () => {
     return (
