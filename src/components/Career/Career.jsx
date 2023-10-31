@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 
 
 const Career = () => {
+    // Using use State to set the data from the json 
     const [jobs, setJobs] = useState([])
+    // using useEffect to to load the data and then set the data to useState
     useEffect(() => {
         fetch('jobs.json')
             .then(res => res.json())
@@ -12,6 +14,7 @@ const Career = () => {
     }, [])
     return (
         <div>
+            {/* Header section of the content */}
             <section className="bg-blue-900 text-white py-8 mt-10">
                 <div className="container mx-auto text-center ">
                     <h1 className="text-4xl font-bold">Join Our Team</h1>

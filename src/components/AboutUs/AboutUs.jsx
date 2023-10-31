@@ -1,19 +1,26 @@
 // AiOutlineArrowRight
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 import about from "../../assets/images/about_us/about.svg";
 const AboutUs = () => {
+    // Intial aos
+    useEffect(() => {
+        Aos.init()
+    })
     return (
         <div>
             <div className="p-8">
                 {/*container mx-auto always center the section when the screen get larger */}
                 <div className="container mx-auto">
                     {/*Section Title */}
-                    <h1 className="text-3xl font-semibold mb-4 text-center">About Our E-commerce Store</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="600" className="text-3xl font-semibold mb-4 text-center">About Our E-commerce Store</h1>
                     <div className="flex gap-10 items-center mt-10 flex-col lg:flex-row">
                         {/* Adding about us section image */}
-                        <div className="lg:w-[50%]">
+                        <div data-aos="flip-left" data-aos-duration="600" className="lg:w-[50%]">
                             <img src={about} alt="About" />
                         </div>
-                        <div className="p-2 font-semibold lg:w-[50%]">
+                        <div data-aos="flip-right" data-aos-duration="600" className="p-2 font-semibold lg:w-[50%]">
                             {/* About us text content */}
                             <p className="text-gray-700">
                                 Welcome to our online store! We are passionate about delivering high-quality products to our customers and providing an exceptional shopping experience.

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "The Latest Fashion Trends",
+        "image": "https://i.ibb.co/rZyBLw7/blog-1.jpg",
+        "shortDescription": "Discover the hottest fashion trends for the upcoming season and how to style them.",
+        "longDescription": "In our latest blog post, we'll guide you through the most exciting fashion trends for the season. From color palettes to must-have accessories, stay ahead of the fashion curve with our expert insights."
+    },
+    {
+        "title": "Tech Gadgets of Tomorrow",
+        "image": "https://i.ibb.co/106QzBV/blog-2.jpg",
+        "shortDescription": "Explore the tech gadgets that will shape the future. From AI to wearables, we've got it all covered.",
+        "longDescription": "Get ready for a deep dive into the world of technology. Our blog post uncovers the latest and greatest tech gadgets that are set to transform our lives. Find out what's on the horizon in the tech industry."
+    },
+    {
+        "title": "Healthy Living Habits",
+        "image": "https://i.ibb.co/7YH9qXc/blog-3.jpg",
+        "shortDescription": "Learn how to maintain a healthy lifestyle through diet, exercise, and mindfulness.",
+        "longDescription": "Join us in exploring the path to a healthier, happier life. Our blog post provides practical tips on maintaining a balanced diet, incorporating exercise into your routine, and embracing mindfulness practices for overall well-being."
+    }
+]

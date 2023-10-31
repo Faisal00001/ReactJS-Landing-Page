@@ -1,5 +1,6 @@
 // Import Swiper React components
-
+import Aos from "aos";
+import 'aos/dist/aos.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
@@ -10,7 +11,13 @@ import { useEffect, useState } from 'react';
 import 'swiper/css';
 import "./Reviews.css";
 const CustomerReviews = () => {
+    // using useState to set the customer loaded from the json file
     const [customers, setCustomers] = useState([])
+    // useEffect to initial AOS
+    useEffect(() => {
+        Aos.init()
+    })
+    // using useEffect to load the customer json data and set the data to customer
     useEffect(() => {
         fetch('customerReviews.json')
             .then(res => res.json())
@@ -18,10 +25,10 @@ const CustomerReviews = () => {
                 setCustomers(data)
             })
     }, [])
-    console.log(customers)
+
     return (
         <>
-            <div className='testimonialsHeader'>Our Testimonials</div>
+            <div data-aos="fade-up" data-aos-duration="600" className='testimonialsHeader'>Our Testimonials</div>
             <Swiper
                 effect='fade'
                 slidesPerView={1}
@@ -34,6 +41,7 @@ const CustomerReviews = () => {
             >
 
                 <div className='reviews-container'>
+                    {/* Mapping to the customer array and getting each customer to show the output */}
                     {
                         customers.map((customer, index) => <SwiperSlide key={index}>
                             <div className='reviews-container'>

@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import "./Footer.css";
 const Footer = () => {
     return (
@@ -7,11 +8,17 @@ const Footer = () => {
                 <div className="content">
                     <div className="left box">
                         <div className="upper">
-                            <div className="topic">About us</div>
+                            <Link to={'/about'}>
+                                <div className="topic underline">About us</div>
+                            </Link>
+
                             <p> Your destination for quality products and exceptional service. We are committed to simplifying your shopping journey and providing reliable, top-notch experiences every time you visit.</p>
                         </div>
                         <div className="lower">
-                            <div className="topic">Contact us</div>
+                            <Link to={'/contact'}>
+                                <div className="topic underline">Contact us</div>
+                            </Link>
+
                             <div className="phone">
                                 <a><i className="fas fa-phone-volume"></i>+007 9089 6767</a>
                             </div>
@@ -22,12 +29,11 @@ const Footer = () => {
                     </div>
                     <div className="middle box">
                         <div className="topic">Our Services</div>
-                        <div><a>Web Design, Development</a></div>
-                        <div><a>Web UX Design, Reasearch</a></div>
-                        <div><a>Web User Interface Design</a></div>
-                        <div><a>Theme Development, Design</a></div>
-                        <div><a>Mobile Application Design</a></div>
-                        <div><a>Wire raming & Prototyping</a></div>
+                        <div><a>Quick Shipping: Get it in days.</a></div>
+                        <div><a>24/7 Support: Help when you need it.</a></div>
+                        <div><a>Safe Payments: Secure and easy transactions.</a></div>
+                        <div><a>Easy Returns: No-hassle product exchanges</a></div>
+                        <div><a>Special Deals: Discounts, every day.</a></div>
                     </div>
                     <div className="right box">
                         <div className="topic">Subscribe us</div>
